@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.yusui.xb.config.IgnoredUrlsProperties",
+      "name": "ignored",
+      "type": "cn.yusui.xb.config.IgnoredUrlsProperties"
+    },
+    {
+      "sourceType": "cn.yusui.xb.config.mail.MailConfig",
+      "name": "mail",
+      "type": "cn.yusui.xb.config.mail.MailConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.yusui.xb.config.IgnoredUrlsProperties",
+      "name": "ignored.urls",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "cn.yusui.xb.config.mail.MailConfig",
+      "name": "mail.sender-account",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.yusui.xb.config.mail.MailConfig",
+      "name": "mail.sender-address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.yusui.xb.config.mail.MailConfig",
+      "name": "mail.sender-password",
+      "type": "java.lang.String"
+    }
+  ]
+}

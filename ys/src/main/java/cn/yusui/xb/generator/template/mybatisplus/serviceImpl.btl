@@ -1,0 +1,33 @@
+package ${entity.serviceImplPackage};
+
+import ${entity.daoPackage}.${entity.className}Mapper;
+import ${entity.entityPackage}.${entity.className};
+import ${entity.servicePackage}.${entity.className}Service;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * ${entity.description}接口实现
+ * @author ${entity.author}
+ */
+@Slf4j
+@Service
+@Transactional
+public class ${entity.className}ServiceImpl extends ServiceImpl<${entity.className}Mapper,${entity.className}> implements ${entity.className}Service {
+
+    @Autowired
+    private ${entity.className}Mapper ${entity.classNameLowerCase}Mapper;
+
+    @Override
+        public Page<${entity.className}> selectListPage(Page page, ${entity.className} ${entity.classNameLowerCase}) {
+            return page.setRecords(${entity.classNameLowerCase}Mapper.selectListPage(page,${entity.classNameLowerCase}));
+        }
+}

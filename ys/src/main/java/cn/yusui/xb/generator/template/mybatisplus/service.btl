@@ -1,0 +1,17 @@
+package ${entity.servicePackage};
+
+import ${entity.entityPackage}.${entity.className};
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
+
+/**
+ * ${entity.description}接口
+ * @author ${entity.author}
+ */
+public interface ${entity.className}Service extends IService<${entity.className}> {
+
+     Page<${entity.className}> selectListPage(Page page,${entity.className} ${entity.classNameLowerCase});
+
+}

@@ -1,0 +1,18 @@
+package ${entity.daoPackage};
+
+import ${entity.entityPackage}.${entity.className};
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+
+/**
+ * ${entity.description}数据处理层
+ * @author ${entity.author}
+ */
+public interface ${entity.className}Mapper extends BaseMapper<${entity.className}> {
+
+      List<${entity.className}> selectListPage(Page<${entity.className}> pagination,@Param(value = "${entity.className}") ${entity.className} ${entity.classNameLowerCase});
+}
