@@ -15,12 +15,12 @@
 - [Vue Router](https://router.vuejs.org/zh/)
 - [Vuex](https://vuex.vuejs.org/zh-cn/)
 - [vue-i18n](https://github.com/kazupon/vue-i18n)：国际化多语言插件 使用5.0.x版本
-- [iView](https://www.iviewui.com/)
+- [iView](https://www.iviewui.com/)   ui组件库
 - [iview-admin](https://github.com/iview/iview-admin)
 - [iview-area](https://github.com/iview/iview-area)：城市级联组件
 - [wangeditor](https://github.com/wangfupeng1988/wangEditor)：轻量富文本编辑器
 - [gitalk](https://github.com/gitalk/gitalk)：基于github issue评论插件
-- [vue-stomp](https://github.com/FlySkyBear/vue-stomp)
+- [vue-stomp](https://github.com/FlySkyBear/vue-stomp)  带有针对VueJS的发送消息超时监视器插件
 - [vue-json-pretty](https://github.com/leezng/vue-json-pretty)：Json美化
 - [Print.js](http://printjs.crabbly.com/)：打印
 - ES6

@@ -1,16 +1,25 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
+
+//iview组件库
 import ViewUI from 'view-design';
 import 'view-design/dist/styles/iview.css';
+
 import App from './App'
 import { router } from './router/index'
 import store from './store'
 import '@/locale'
+
+//国际化语言插件
 import VueI18n from 'vue-i18n';
 import VueLazyload from 'vue-lazyload'
+
+
 // 引入awesome图标
 import Icon from 'vue-awesome/components/Icon'
+
+
 import { getRequest, postRequest, putRequest, deleteRequest, uploadFileRequest } from '@/libs/axios'
 import { setStore, getStore, removeStore } from '@/libs/storage'
 import util from '@/libs/util';
